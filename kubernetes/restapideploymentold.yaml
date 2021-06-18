@@ -22,7 +22,4 @@ spec:
         - containerPort: 80
         env:
             - name: ServiceSettings__ApiKey
-              valueFrom:
-                secretKeyRef:
-                  name: microservice-secrets
-                  key: api-key
+              value: 3322a1e8cee3bf5dd145caa38606acaa
